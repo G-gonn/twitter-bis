@@ -1,0 +1,6 @@
+<h2>Mon Tweet</h2>
+
+<%= form_for :params_tweet do |f| %>
+  <%= f.text_field :msg, placeholder:"put your tweet here" %>
+  <%= f.submit value:"Tweeter !" %>
+<% end %>
